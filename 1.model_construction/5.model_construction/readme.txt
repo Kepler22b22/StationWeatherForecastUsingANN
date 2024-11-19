@@ -1,0 +1,2 @@
+At this part, all the model functions are in  function.py, all the datapreprocess functions are in datapreprocess.py.
+And, in 'function.py', all the functions were not used except 'class model_ann','class Model_mlr','rmse'.

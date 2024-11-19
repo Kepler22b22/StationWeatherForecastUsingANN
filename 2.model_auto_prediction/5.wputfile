@@ -1,0 +1,17 @@
+#!/bin/bash
+
+FILE=/home2/quyonglin/GFS/AutoRunFor54401Forecast/Z_*
+PUTFILE=$(basename $FILE)
+lftp << EOF
+open ftp://ftp_pku:ybs340425@117.78.8.114
+lcd /home2/quyonglin/GFS/AutoRunFor54401Forecast
+put $PUTFILE
+close
+exit
+EOF
+
+time=$(date "+%Y%m%d")
+if [ ! -d "./${time}predict" ]; then
+  mkdir ${time}predict
+fi
+mv ${FILE} ${time}predict

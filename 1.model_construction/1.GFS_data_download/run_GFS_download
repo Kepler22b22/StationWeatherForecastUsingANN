@@ -1,0 +1,12 @@
+nohup python GFS_download1_1.py 011616336 > GFSdownload1_1.log 2>&1 &
+nohup python GFS_download1_2.py 011616336 > GFSdownload1_2.log 2>&1 &
+nohup python GFS_download1_3.py 011616336 > GFSdownload1_3.log 2>&1 &
+nohup python GFS_download1_4.py 011616336 > GFSdownload1_4.log 2>&1 &
+nohup python GFS_download2_1.py 011616338 > GFSdownload2_1.log 2>&1 &
+nohup python GFS_download2_2.py 011616338 > GFSdownload2_2.log 2>&1 &
+nohup python GFS_download2_3.py 011616338 > GFSdownload2_3.log 2>&1 &
+nohup python GFS_download2_4.py 011616338 > GFSdownload2_4.log 2>&1 &
+#nohup python GFS_download3_1.py 011537079 > GFSdownload3_1.log 2>&1 &
+#nohup python GFS_download3_2.py 011537079 > GFSdownload3_2.log 2>&1 &
+#nohup python GFS_download3_3.py 011537079 > GFSdownload3_3.log 2>&1 &
+#nohup python GFS_download3_4.py 011537079 > GFSdownload3_4.log 2>&1 &

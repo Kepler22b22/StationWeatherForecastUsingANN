@@ -1,0 +1,2 @@
+Why not we transform GRIB to npy directly? Because we select China area and several variables from it. 
+So that we could delete the big big big GRIB data .And only keep the small NC data to deal any Chinese cities.
